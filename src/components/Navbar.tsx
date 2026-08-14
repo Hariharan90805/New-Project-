@@ -33,14 +33,10 @@ export const Navbar: React.FC<NavbarProps> = ({
   const { theme } = useTheme();
 
   const navLinks = [
-    { label: '9 Pillars', href: '#nine-pillars' },
-    { label: 'Problem & Solution', href: '#problem-solution' },
     { label: 'Capabilities', href: '#full-capabilities' },
     { label: 'Packages', href: '#pricing' },
-    { label: 'Lead Funnel (Slide 11)', href: '#funnel' },
-    { label: 'Growth Simulator', href: '#growth-simulator' },
-    { label: '30-Day Growth', href: '#growth-metrics' },
-    { label: 'ROI Breakdown', href: '#conversion-architecture' },
+    { label: 'Simulator', href: '#growth-simulator' },
+    { label: 'ROI', href: '#conversion-architecture' },
     { label: 'Reviews', href: '#reviews' },
   ];
 
